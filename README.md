@@ -42,11 +42,13 @@ public class ItemTaxCalculator {
 > - The package of class to be tested and the test class should be the same.
 
 10. Go to the **Projects** directory to view the project. Your project directory for the current project should be the same as *Figure 1*.
+
 ![preview img](https://github.com/izzyluuuuh/software-system-testing/blob/main/Figures/Figure%201.%20TaxCalculator%20project.png)
 
 > *Figure 1. TaxCalculator project*
 
 11. To execute a test, go to **Projects**. Right-click the class file to test, which is the **ItemTaxCalculator**, then select **Test File**. This will run a test to the project but will result to Failed (see Figure 2). This is because there are no runnable test methods found in the test class.
+
 ![preview img](https://github.com/izzyluuuuh/software-system-testing/blob/main/Figures/Figure%202.%20Test%20failed%20shown%20in%20Test%20Results%20window.png)
 
 > *Figure 2. Test failed shown in Test Results window*
@@ -67,6 +69,7 @@ public void testCalculateItemTax() {
 }
 ```
 13. Run the Test File again to run the unit test, This should result to Passed (*see Figure 3*).
+
 ![preview img](https://github.com/izzyluuuuh/software-system-testing/blob/main/Figures/Figure%203.%20Test%20passed%20shown%20in%20Test%20Results%20window.png)
 
 > *Figure 3. Test passed shown in Test Results window*
